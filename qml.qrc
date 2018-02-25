@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>SensorReader.qml</file>
+        <file>Controller.qml</file>
+        <file>Marker.qml</file>
+        <file>Settings.qml</file>
+    </qresource>
+</RCC>
