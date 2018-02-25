@@ -9,7 +9,7 @@ ApplicationWindow {
     width: 500
     height: 70
     //visibility: ApplicationWindow.Hidden
-    //flags: Qt.Window | Qt.FramelessWindowHint
+    flags: Qt.Window | Qt.WindowStaysOnTopHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint | Qt.WindowSystemMenuHint
     x: 100
     y: 100
 

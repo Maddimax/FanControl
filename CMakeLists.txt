@@ -8,7 +8,7 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt5 COMPONENTS Core Quick widgets REQUIRED)
 
-add_executable(${PROJECT_NAME} MACOSX_BUNDLE "main.cpp" "qml.qrc" "Resources/Info.plist.in" "systemtrayicon.cpp" "systemtrayicon.h")
+add_executable(${PROJECT_NAME} WIN32 MACOSX_BUNDLE "main.cpp" "qml.qrc" "Resources/Info.plist.in" "systemtrayicon.cpp" "systemtrayicon.h")
 
 target_link_libraries(${PROJECT_NAME} Qt5::Core Qt5::Quick Qt5::Widgets)
 
