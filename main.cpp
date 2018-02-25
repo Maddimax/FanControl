@@ -48,6 +48,7 @@ int main(int argc, char *argv[])
 	
 	QAction* showAction;
 	QSystemTrayIcon* systemTrayIcon = createSystemTray(showAction);
+	systemTrayIcon->setParent(&app);
 	
 	QQmlApplicationEngine engine;
 	engine.rootContext()->setContextProperty("ShowAction", showAction);
