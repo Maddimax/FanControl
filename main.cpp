@@ -60,6 +60,7 @@ int main(int argc, char *argv[])
 	
 	QQuickWindow* appWindow = qobject_cast<QQuickWindow*>(engine.rootObjects().first());
 	
+	// Test ?
 	if(!appWindow)
 		return -1;
 
